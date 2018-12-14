@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F6F2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#DFDCD5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/cat"
+            android:gravity="center"
+            android:textColor="#949885"
+            android:textSize="18sp"
+            android:fontFamily="roboto"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/dog"
+            android:gravity="center"
+            android:textColor="#949885"
+            android:textSize="18sp"
+            android:fontFamily="roboto"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/others"
+            android:gravity="center"
+            android:textColor="#949885"
+            android:textSize="18sp"
+            android:fontFamily="roboto"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

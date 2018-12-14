@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyPet</string>
+    <string name="cat">Gato</string>
+    <string name="dog">Cão</string>
+    <string name="others">Outros</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="adopt">Adotar</string>
+</resources>
