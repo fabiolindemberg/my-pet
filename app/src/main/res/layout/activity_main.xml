@@ -16,34 +16,37 @@
         android:background="#DFDCD5">
 
         <TextView
+            android:id="@+id/tvCat"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="roboto"
+            android:gravity="center"
             android:text="@string/cat"
-            android:gravity="center"
             android:textColor="#949885"
-            android:textSize="18sp"
-            android:fontFamily="roboto"
-            android:layout_weight="1"/>
+            android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/tvDog"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="roboto"
+            android:gravity="center"
             android:text="@string/dog"
-            android:gravity="center"
             android:textColor="#949885"
-            android:textSize="18sp"
-            android:fontFamily="roboto"
-            android:layout_weight="1"/>
+            android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/tvOthers"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="@string/others"
-            android:gravity="center"
-            android:textColor="#949885"
-            android:textSize="18sp"
+            android:layout_weight="1"
             android:fontFamily="roboto"
-            android:layout_weight="1"/>
+            android:gravity="center"
+            android:text="@string/others"
+            android:textColor="#949885"
+            android:textSize="18sp" />
 
     </LinearLayout>
 </LinearLayout>
