@@ -1,5 +1,7 @@
 package mypet.fabiolindemberg.com.br.mypet;
 
+import android.media.Image;
+
 import java.util.Objects;
 
 public class Pet {
@@ -8,6 +10,16 @@ public class Pet {
     private String description;
     private Boolean toAdopt;
     private String details;
+
+    public Image getImage() {
+        return image;
+    }
+
+    public void setImage(Image image) {
+        this.image = image;
+    }
+
+    private Image image;
 
     public Pet(Integer id, String description, Boolean toAdopt, String details) {
         this.id = id;

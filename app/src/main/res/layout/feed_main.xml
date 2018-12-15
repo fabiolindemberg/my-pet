@@ -7,6 +7,7 @@
     android:background="#F7F6F2"
     >
     <ImageView
+        android:id="@+id/ivPetPic"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -32,6 +33,7 @@
             android:layout_weight="1"
             android:src="@drawable/like_2"/>
         <TextView
+            android:id="@+id/tvPetname"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
